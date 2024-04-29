@@ -5,4 +5,4 @@ const sum_num = (num1,num2)=>{
 }
 const num1 = parseInt(prompt("Enetr the first number: "))
 const num2 = parseInt(prompt("Enter the second numbar : "))
-console.log(sum_num(4,5))
+console.log(sum_num(num1,num2))
