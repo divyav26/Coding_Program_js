@@ -3,13 +3,14 @@
 
 const even_num =(arr)=>{
     return arr.filter(num =>num%2===0);
-
 }
-
 const num=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const res = even_num(num)
 console.log(res)
 
+
+
+// second way 
 const even_arr=(arr)=>{
     let evennum = []
     for(let i=0; i<arr.length; i++)
