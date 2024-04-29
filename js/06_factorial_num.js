@@ -29,6 +29,6 @@ function calculateFact(number) {
     }
 }
 
-// Example usage:
+
 const num = 5;
 console.log("The factorial of", num, "is", calculateFact(num));
